@@ -11,7 +11,7 @@
 You will need NodeJS 10.4+. Refer to [BigInt Compatibility](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt) for more details.
 
 ```
-npm install snowflake-js
+npm install @luvaeria/snowflake-js
 ```
 
 ## Snowflake Generator Example
