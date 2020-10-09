@@ -17,7 +17,7 @@ npm install snowflake-js
 ## Snowflake Generator Example
 
 ```js
-const Snowflake = require('snowflake-js');
+const Snowflake = require('@luvaeria/snowflake-js');
 
 const options = {
     epoch: 1577833200000,
@@ -56,7 +56,7 @@ Refer to [example/snowflake-server.js](example/snowflake-server.js)
 -   [Announcing Snowflake](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake.html)
 -   [Twitter Ids](https://developer.twitter.com/en/docs/twitter-ids)
 -   [The GitHub repo](https://github.com/luvaeria/snowflake-js)
--   [The NPM package](https://npmjs.com/package/snowflake-js)
+-   [The NPM package](https://npmjs.com/package/@luvaeria/snowflake-js)
 
 ## License
 

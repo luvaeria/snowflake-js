@@ -1,5 +1,5 @@
 {
-    "name": "snowflake-js",
+    "name": "@luvaeria/snowflake-js",
     "version": "0.1.0",
     "description": "Twitter's Snowflake implementation for NodeJS",
     "keywords": ["twitter", "snowflake", "uuid", "id"],
