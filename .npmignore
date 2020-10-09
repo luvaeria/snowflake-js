@@ -1,0 +1,4 @@
+.DS_Store
+*.log
+example
+node_modules
