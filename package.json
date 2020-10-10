@@ -37,5 +37,8 @@
             "./index.js"
         ],
         "./esm": "./esm.mjs"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
     }
 }
