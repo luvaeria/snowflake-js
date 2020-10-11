@@ -3,7 +3,7 @@
 const Generator = require('../lib/Generator');
 
 const Snowflake = new Generator({
-    epoch:1577836800000,
+    epoch: 1577836800000,
     workerId: 0,
     datacenterId: 0,
     workerIdBits: 5,

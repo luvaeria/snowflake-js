@@ -1,20 +1,25 @@
 {
     "name": "@luvaeria/snowflake-js",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Twitter's Snowflake implementation for NodeJS",
-    "keywords": ["twitter", "snowflake", "uuid", "id"],
+    "keywords": [
+        "twitter",
+        "snowflake",
+        "uuid",
+        "id"
+    ],
     "homepage": "https://github.com/luvaeria/snowflake-js#readme",
     "bugs": {
         "url": "https://github.com/luvaeria/snowflake-js/issues"
     },
     "license": "GPL-3.0-or-later",
-    "author":{
-        "name" : "Luvaérïa",
-        "url" : "https://github.com/luvaeria/"
+    "author": {
+        "name": "Luvaérïa",
+        "url": "https://github.com/luvaeria/"
     },
     "main": "index.js",
     "directories": {
-        "bin":"./bin",
+        "bin": "./bin",
         "example": "./example"
     },
     "repository": {

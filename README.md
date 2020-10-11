@@ -8,7 +8,7 @@
 
 ## Installing
 
-You will need NodeJS 10.4+. Refer to [BigInt Compatibility](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt) for more details.
+You will need NodeJS 10.4+. Refer to [BigInt Compatibility](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt#Browser_compatibility) for more details.
 
 ```
 npm install @luvaeria/snowflake-js
@@ -31,7 +31,23 @@ const options = {
 
 const Generator = new Snowflake(options); // new Snowflake.Generator(options);
 
-console.log(Generator.getId());
+console.log(Generator.getId()); // 103057029651759104n (type bigint)
+console.log(Generator.getId().toString()); // '103057029681119232' (type string)
+```
+
+## IDs
+
+All generated identifiers are [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt) and can be easily converted into strings.
+
+```js
+let id;
+
+id = Generator.getId(); // 103057029681119233n
+
+id = Generator.getId().toString(); // '103057029681119234'
+
+id = Generator.getId(); // 103057029681119235n
+id = id.toString(); // '103057029681119235'
 ```
 
 ## Snowflake Server example

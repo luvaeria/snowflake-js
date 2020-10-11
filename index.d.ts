@@ -35,7 +35,7 @@ declare namespace Snowflake {
         sequenceMask: bigint;
         lastTimestamp: bigint;
         uptime: number;
-        count:number;
+        count: number;
     }
 }
 
